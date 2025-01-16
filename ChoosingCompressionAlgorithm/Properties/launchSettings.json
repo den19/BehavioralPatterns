@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ChoosingCompressionAlgorithm": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
