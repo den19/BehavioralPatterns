@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoosingPaymentMethod", "ConsoleApp1\ChoosingPaymentMethod.csproj", "{F36E5C88-9651-4C75-BA64-DC4282E8E54D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoosingPaymentMethod", "ChoosingPaymentMethod\ChoosingPaymentMethod.csproj", "{F36E5C88-9651-4C75-BA64-DC4282E8E54D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{F23E762B-61CC-4185-92F8-13CA6BB6B3C5}"
 EndProject
@@ -14,6 +14,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingMessages", "LoggingMessages\LoggingMessages.csproj", "{6CF00112-CAB6-491E-93A9-E1AA602C7370}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing", "OrderProcessing\OrderProcessing.csproj", "{E7C4F535-BA76-4FDD-B8CB-E151D9B67D8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{02AF0B54-990B-49A5-B8C1-C1B7D0C235E1}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,5 +56,6 @@ Global
 		{5B1360DB-8959-4025-B9AF-9C287A6E50E7} = {F23E762B-61CC-4185-92F8-13CA6BB6B3C5}
 		{6CF00112-CAB6-491E-93A9-E1AA602C7370} = {F23E762B-61CC-4185-92F8-13CA6BB6B3C5}
 		{E7C4F535-BA76-4FDD-B8CB-E151D9B67D8C} = {F23E762B-61CC-4185-92F8-13CA6BB6B3C5}
+		{02AF0B54-990B-49A5-B8C1-C1B7D0C235E1} = {F23E762B-61CC-4185-92F8-13CA6BB6B3C5}
 	EndGlobalSection
 EndGlobal
