@@ -17,7 +17,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing", "OrderPro
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{02AF0B54-990B-49A5-B8C1-C1B7D0C235E1}"
 	ProjectSection(SolutionItems) = preProject
-		readme.txt = readme.txt
+		strategy_readme.txt = strategy_readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{7218B349-A195-4312-A8B4-F3A1841137FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{F1E6F392-C43A-4450-98CF-20C02E84FD2A}"
+	ProjectSection(SolutionItems) = preProject
+		mediator_readme.txt = mediator_readme.txt
 	EndProjectSection
 EndProject
 Global
@@ -57,5 +64,6 @@ Global
 		{6CF00112-CAB6-491E-93A9-E1AA602C7370} = {F23E762B-61CC-4185-92F8-13CA6BB6B3C5}
 		{E7C4F535-BA76-4FDD-B8CB-E151D9B67D8C} = {F23E762B-61CC-4185-92F8-13CA6BB6B3C5}
 		{02AF0B54-990B-49A5-B8C1-C1B7D0C235E1} = {F23E762B-61CC-4185-92F8-13CA6BB6B3C5}
+		{F1E6F392-C43A-4450-98CF-20C02E84FD2A} = {7218B349-A195-4312-A8B4-F3A1841137FF}
 	EndGlobalSection
 EndGlobal
