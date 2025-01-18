@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom", "ChatRoom\ChatRo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification", "Notification\Notification.csproj", "{E7CF7792-F816-42CE-B4CD-91981DEAC52C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirTrafficTower", "AirTrafficMediator\AirTrafficTower.csproj", "{D684A268-EA9F-4B07-B6D1-4E1FF010B1CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{E7CF7792-F816-42CE-B4CD-91981DEAC52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7CF7792-F816-42CE-B4CD-91981DEAC52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7CF7792-F816-42CE-B4CD-91981DEAC52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D684A268-EA9F-4B07-B6D1-4E1FF010B1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D684A268-EA9F-4B07-B6D1-4E1FF010B1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D684A268-EA9F-4B07-B6D1-4E1FF010B1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D684A268-EA9F-4B07-B6D1-4E1FF010B1CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,5 +85,6 @@ Global
 		{F1E6F392-C43A-4450-98CF-20C02E84FD2A} = {7218B349-A195-4312-A8B4-F3A1841137FF}
 		{209615EA-E440-41A6-A620-EB0CA46A75AF} = {7218B349-A195-4312-A8B4-F3A1841137FF}
 		{E7CF7792-F816-42CE-B4CD-91981DEAC52C} = {7218B349-A195-4312-A8B4-F3A1841137FF}
+		{D684A268-EA9F-4B07-B6D1-4E1FF010B1CF} = {7218B349-A195-4312-A8B4-F3A1841137FF}
 	EndGlobalSection
 EndGlobal

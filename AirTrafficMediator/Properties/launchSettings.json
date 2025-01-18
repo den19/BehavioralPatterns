@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AirTrafficMediator": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
