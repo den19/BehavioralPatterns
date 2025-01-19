@@ -44,6 +44,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrepareDrinks", "PrepareDri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBuilder", "CarBuilder\CarBuilder.csproj", "{382E5CE5-7EC0-43A3-B88E-10300749C83C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareDevelopmentProcess", "SoftwareDevelopmentProcess\SoftwareDevelopmentProcess.csproj", "{21803751-EDB0-448B-924F-1CC64858C77E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,6 +92,10 @@ Global
 		{382E5CE5-7EC0-43A3-B88E-10300749C83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{382E5CE5-7EC0-43A3-B88E-10300749C83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{382E5CE5-7EC0-43A3-B88E-10300749C83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21803751-EDB0-448B-924F-1CC64858C77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21803751-EDB0-448B-924F-1CC64858C77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21803751-EDB0-448B-924F-1CC64858C77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21803751-EDB0-448B-924F-1CC64858C77E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,5 +114,6 @@ Global
 		{E2F77796-D841-4F16-8E9D-DBA455C04BD1} = {E444124E-509D-4A94-8630-865CBE3DFFF6}
 		{378F6C48-C0D3-43FD-A7E3-231C707405B8} = {E444124E-509D-4A94-8630-865CBE3DFFF6}
 		{382E5CE5-7EC0-43A3-B88E-10300749C83C} = {E444124E-509D-4A94-8630-865CBE3DFFF6}
+		{21803751-EDB0-448B-924F-1CC64858C77E} = {E444124E-509D-4A94-8630-865CBE3DFFF6}
 	EndGlobalSection
 EndGlobal
