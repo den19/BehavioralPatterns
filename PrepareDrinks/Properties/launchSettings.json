@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PrepareDrinks": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
