@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DynamicDispatching": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
