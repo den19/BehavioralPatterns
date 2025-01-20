@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GenericInterfacesAndMethods": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
