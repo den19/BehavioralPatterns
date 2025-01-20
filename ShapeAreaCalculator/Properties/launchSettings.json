@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ShapeAreaCalculator": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
