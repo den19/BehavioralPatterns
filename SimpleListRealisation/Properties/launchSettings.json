@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SimpleListRealisation": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
