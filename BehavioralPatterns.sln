@@ -70,6 +70,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{3B4326
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleListRealisation", "SimpleListRealisation\SimpleListRealisation.csproj", "{23A1C3AD-239E-4C75-973E-6BB524AB008A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeTraversal", "TreeTraversal\TreeTraversal.csproj", "{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -136,6 +138,10 @@ Global
 		{23A1C3AD-239E-4C75-973E-6BB524AB008A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A1C3AD-239E-4C75-973E-6BB524AB008A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A1C3AD-239E-4C75-973E-6BB524AB008A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,5 +168,6 @@ Global
 		{D680A904-20EE-4DD3-AF85-4FEB5BC4C7BE} = {C7E82F5B-67E4-4D1B-B842-91046E392CED}
 		{3B4326B8-D45E-4160-BF14-6E1A491EB626} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
 		{23A1C3AD-239E-4C75-973E-6BB524AB008A} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
+		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
 	EndGlobalSection
 EndGlobal
