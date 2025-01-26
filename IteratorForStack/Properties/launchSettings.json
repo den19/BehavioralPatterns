@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "IteratorForStack": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

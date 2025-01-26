@@ -72,6 +72,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleListRealisation", "Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeTraversal", "TreeTraversal\TreeTraversal.csproj", "{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorForStack", "IteratorForStack\IteratorForStack.csproj", "{220EA774-ED98-4F7D-9B34-0729C37F7182}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,6 +144,10 @@ Global
 		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220EA774-ED98-4F7D-9B34-0729C37F7182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220EA774-ED98-4F7D-9B34-0729C37F7182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220EA774-ED98-4F7D-9B34-0729C37F7182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220EA774-ED98-4F7D-9B34-0729C37F7182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,5 +175,6 @@ Global
 		{3B4326B8-D45E-4160-BF14-6E1A491EB626} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
 		{23A1C3AD-239E-4C75-973E-6BB524AB008A} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
 		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
+		{220EA774-ED98-4F7D-9B34-0729C37F7182} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
 	EndGlobalSection
 EndGlobal
