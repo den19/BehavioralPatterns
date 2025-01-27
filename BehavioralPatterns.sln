@@ -82,6 +82,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork", "SocialNetwork\SocialNetwork.csproj", "{DF914959-AF8F-4037-9A2A-57507B9C030A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerStatus", "ServerStatus\ServerStatus.csproj", "{3071622F-08D3-423A-916E-A6B3B28968D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -168,6 +170,10 @@ Global
 		{DF914959-AF8F-4037-9A2A-57507B9C030A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF914959-AF8F-4037-9A2A-57507B9C030A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF914959-AF8F-4037-9A2A-57507B9C030A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3071622F-08D3-423A-916E-A6B3B28968D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3071622F-08D3-423A-916E-A6B3B28968D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3071622F-08D3-423A-916E-A6B3B28968D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3071622F-08D3-423A-916E-A6B3B28968D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,5 +205,6 @@ Global
 		{FB5E1F46-2561-4B35-BE77-BB71950C6A94} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
 		{E8CBD815-D178-4747-B5E3-8B7E32190B44} = {F1FCB16F-5F08-46D0-A48F-7CD4FAFF0E08}
 		{DF914959-AF8F-4037-9A2A-57507B9C030A} = {F1FCB16F-5F08-46D0-A48F-7CD4FAFF0E08}
+		{3071622F-08D3-423A-916E-A6B3B28968D6} = {F1FCB16F-5F08-46D0-A48F-7CD4FAFF0E08}
 	EndGlobalSection
 EndGlobal
