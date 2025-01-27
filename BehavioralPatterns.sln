@@ -76,6 +76,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorForStack", "Iterato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationOfSet", "EnumerationOfSet\EnumerationOfSet.csproj", "{FB5E1F46-2561-4B35-BE77-BB71950C6A94}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{F1FCB16F-5F08-46D0-A48F-7CD4FAFF0E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{E8CBD815-D178-4747-B5E3-8B7E32190B44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -154,6 +158,10 @@ Global
 		{FB5E1F46-2561-4B35-BE77-BB71950C6A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB5E1F46-2561-4B35-BE77-BB71950C6A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB5E1F46-2561-4B35-BE77-BB71950C6A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CBD815-D178-4747-B5E3-8B7E32190B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CBD815-D178-4747-B5E3-8B7E32190B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CBD815-D178-4747-B5E3-8B7E32190B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CBD815-D178-4747-B5E3-8B7E32190B44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -183,5 +191,6 @@ Global
 		{2CA45E2D-67C0-4600-8FCA-ADDEEE7336EE} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
 		{220EA774-ED98-4F7D-9B34-0729C37F7182} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
 		{FB5E1F46-2561-4B35-BE77-BB71950C6A94} = {FE22C89E-8554-4DC2-83B3-8EEE13375421}
+		{E8CBD815-D178-4747-B5E3-8B7E32190B44} = {F1FCB16F-5F08-46D0-A48F-7CD4FAFF0E08}
 	EndGlobalSection
 EndGlobal
