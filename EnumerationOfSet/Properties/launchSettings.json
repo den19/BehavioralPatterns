@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EnumerationOfSet": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
