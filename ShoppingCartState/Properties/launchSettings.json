@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ShoppingCartState": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
