@@ -9,64 +9,150 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var shoppingCart = new ShoppingCart();
+
+            shoppingCart.AddItem("Телефон");       // Добавляем первый товар
+            shoppingCart.AddItem("Наушники");      // Добавляем второй товар
+            shoppingCart.RemoveItem("Наушники");   // Удаляем второй товар
+            shoppingCart.Checkout();               // Переходим к оплате
+            shoppingCart.Pay();                    // Оплачиваем корзину
+
+            Console.ReadKey();
         }
     }
 
-    // Интерфейс для состояния онлайн-магазина
-    interface ShoppingCartState
+// Интерфейс для всех состояний корзины покупок
+    public interface IShoppingCartState
     {
-        void AddItem(ShoppingCart cart, Product product);
-        void RemoveItem(ShoppingCart cart, Product product);
+        void AddItem(ShoppingCart cart, string item);
+        void RemoveItem(ShoppingCart cart, string item);
         void Checkout(ShoppingCart cart);
         void Pay(ShoppingCart cart);
     }
 
-    // Класс Context
-    class ShoppingCart
-    {
-        private ShoppingCartState state;
-
-        public ShoppingCart()
-        {
-
-        }
-    }
-
-    // Класс продукта
-    class Product
-    {
-        public Product(string name, decimal price)
-        {
-            Name = name;
-            Price = price;
-        }
-
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-    }
-
     // Состояние пустой корзины
-    class EmptyCartState : ShoppingCartState
+    public class EmptyCartState : IShoppingCartState
     {
-        public void AddItem(ShoppingCart cart, Product product)
+        public void AddItem(ShoppingCart cart, string item)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Добавлен товар '{item}'");
+            cart.Items.Add(item);
+            cart.SetState(new FilledCartState());
+        }
+
+        public void RemoveItem(ShoppingCart cart, string item)
+        {
+            Console.WriteLine("Корзина пуста, удалить нечего.");
         }
 
         public void Checkout(ShoppingCart cart)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Корзина пуста, нельзя перейти к оплате.");
         }
 
         public void Pay(ShoppingCart cart)
         {
-            throw new NotImplementedException();
-        }
-
-        public void RemoveItem(ShoppingCart cart, Product product)
-        {
-            throw new NotImplementedException();
+            Console.WriteLine("Корзина пуста, оплата невозможна.");
         }
     }
+
+    // Состояние заполненной корзины
+    public class FilledCartState : IShoppingCartState
+    {
+        public void AddItem(ShoppingCart cart, string item)
+        {
+            Console.WriteLine($"Добавлен товар '{item}'");
+            cart.Items.Add(item);
+        }
+
+        public void RemoveItem(ShoppingCart cart, string item)
+        {
+            if (cart.Items.Contains(item))
+            {
+                Console.WriteLine($"Удалён товар '{item}'");
+                cart.Items.Remove(item);
+                if (cart.Items.Count == 0)
+                    cart.SetState(new EmptyCartState());
+            }
+            else
+            {
+                Console.WriteLine($"Товар '{item}' отсутствует в корзине.");
+            }
+        }
+
+        public void Checkout(ShoppingCart cart)
+        {
+            Console.WriteLine("Переход к оплате...");
+            cart.SetState(new PaidCartState());
+        }
+
+        public void Pay(ShoppingCart cart)
+        {
+            Console.WriteLine("Оплата уже началась, завершить её невозможно.");
+        }
+    }
+
+    // Состояние оплаченной корзины
+    public class PaidCartState : IShoppingCartState
+    {
+        public void AddItem(ShoppingCart cart, string item)
+        {
+            Console.WriteLine("Оплачено, добавить товары невозможно.");
+        }
+
+        public void RemoveItem(ShoppingCart cart, string item)
+        {
+            Console.WriteLine("Оплачено, удалить товары невозможно.");
+        }
+
+        public void Checkout(ShoppingCart cart)
+        {
+            Console.WriteLine("Оплачено, переход к оплате невозможен.");
+        }
+
+        public void Pay(ShoppingCart cart)
+        {
+            Console.WriteLine("Оплата завершена.");
+        }
+    }
+
+    // Класс корзины покупок
+    public class ShoppingCart
+    {
+        public List<string> Items { get; private set; }
+        private IShoppingCartState _state;
+
+        public ShoppingCart()
+        {
+            this.Items = new List<string>();
+            this._state = new EmptyCartState(); // Начальное состояние - пустая корзина
+        }
+
+        public void SetState(IShoppingCartState state)
+        {
+            this._state = state;
+        }
+
+        public void AddItem(string item)
+        {
+            this._state.AddItem(this, item);
+        }
+
+        public void RemoveItem(string item)
+        {
+            this._state.RemoveItem(this, item);
+        }
+
+        public void Checkout()
+        {
+            this._state.Checkout(this);
+        }
+
+        public void Pay()
+        {
+            this._state.Pay(this);
+        }
+    }
+
+
 }
