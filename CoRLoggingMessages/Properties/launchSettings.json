@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CoRLoggingMessages": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HandleNumbers": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

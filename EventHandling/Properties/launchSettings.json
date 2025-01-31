@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EventHandling": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
