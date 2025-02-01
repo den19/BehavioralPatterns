@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TextEditor": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
