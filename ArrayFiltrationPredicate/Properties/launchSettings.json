@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ArrayFiltrationPredicate": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
