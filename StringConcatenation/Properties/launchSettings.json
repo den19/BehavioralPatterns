@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "StringConcatenation": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

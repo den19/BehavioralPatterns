@@ -114,6 +114,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicArithmetic", "LogicAri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionArithmetic", "ConditionArithmetic\ConditionArithmetic.csproj", "{D151D47F-7478-4FD9-A3BA-59D2F082308A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringConcatenation", "StringConcatenation\StringConcatenation.csproj", "{5A86F21A-5590-44D8-8FDB-FFA7E6CFCB34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -248,6 +250,10 @@ Global
 		{D151D47F-7478-4FD9-A3BA-59D2F082308A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D151D47F-7478-4FD9-A3BA-59D2F082308A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D151D47F-7478-4FD9-A3BA-59D2F082308A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A86F21A-5590-44D8-8FDB-FFA7E6CFCB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A86F21A-5590-44D8-8FDB-FFA7E6CFCB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A86F21A-5590-44D8-8FDB-FFA7E6CFCB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A86F21A-5590-44D8-8FDB-FFA7E6CFCB34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -291,5 +297,6 @@ Global
 		{29249E5E-E453-44FC-8CE1-5B4E346EC1D5} = {3E8D236C-6200-4A06-87BE-2F9E46B535FC}
 		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9} = {3E8D236C-6200-4A06-87BE-2F9E46B535FC}
 		{D151D47F-7478-4FD9-A3BA-59D2F082308A} = {3E8D236C-6200-4A06-87BE-2F9E46B535FC}
+		{5A86F21A-5590-44D8-8FDB-FFA7E6CFCB34} = {3E8D236C-6200-4A06-87BE-2F9E46B535FC}
 	EndGlobalSection
 EndGlobal
