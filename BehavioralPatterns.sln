@@ -112,6 +112,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleArithmetic", "SimpleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicArithmetic", "LogicArithmetic\LogicArithmetic.csproj", "{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionArithmetic", "ConditionArithmetic\ConditionArithmetic.csproj", "{D151D47F-7478-4FD9-A3BA-59D2F082308A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -242,6 +244,10 @@ Global
 		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D151D47F-7478-4FD9-A3BA-59D2F082308A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D151D47F-7478-4FD9-A3BA-59D2F082308A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D151D47F-7478-4FD9-A3BA-59D2F082308A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D151D47F-7478-4FD9-A3BA-59D2F082308A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -284,5 +290,6 @@ Global
 		{13AD818B-3EA9-4119-8560-8E25AFA49ADC} = {300027E9-308D-42B3-A31C-88107C38D7BA}
 		{29249E5E-E453-44FC-8CE1-5B4E346EC1D5} = {3E8D236C-6200-4A06-87BE-2F9E46B535FC}
 		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9} = {3E8D236C-6200-4A06-87BE-2F9E46B535FC}
+		{D151D47F-7478-4FD9-A3BA-59D2F082308A} = {3E8D236C-6200-4A06-87BE-2F9E46B535FC}
 	EndGlobalSection
 EndGlobal
