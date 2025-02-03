@@ -110,6 +110,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interpreter", "Interpreter"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleArithmetic", "SimpleArithmetic\SimpleArithmetic.csproj", "{29249E5E-E453-44FC-8CE1-5B4E346EC1D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicArithmetic", "LogicArithmetic\LogicArithmetic.csproj", "{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -236,6 +238,10 @@ Global
 		{29249E5E-E453-44FC-8CE1-5B4E346EC1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29249E5E-E453-44FC-8CE1-5B4E346EC1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29249E5E-E453-44FC-8CE1-5B4E346EC1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -277,5 +283,6 @@ Global
 		{6AA19D70-2C21-42D4-910C-71BB6ED25F54} = {300027E9-308D-42B3-A31C-88107C38D7BA}
 		{13AD818B-3EA9-4119-8560-8E25AFA49ADC} = {300027E9-308D-42B3-A31C-88107C38D7BA}
 		{29249E5E-E453-44FC-8CE1-5B4E346EC1D5} = {3E8D236C-6200-4A06-87BE-2F9E46B535FC}
+		{9B1E61B7-83B0-4C95-B92C-5BCD5AC8A4D9} = {3E8D236C-6200-4A06-87BE-2F9E46B535FC}
 	EndGlobalSection
 EndGlobal
