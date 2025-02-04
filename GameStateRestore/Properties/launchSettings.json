@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GameStateRestore": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
