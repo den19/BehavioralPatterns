@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DatabaseBackupAndRestore": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
