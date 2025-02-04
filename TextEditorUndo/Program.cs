@@ -16,7 +16,24 @@ namespace TextEditorUndo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            StringBuilder text = new StringBuilder("Initial Text");
+            Editor editor = new Editor(text);
+            History history = new History();
+
+            // Изменяем текст
+            editor.SetText(new StringBuilder("New Text"));
+            Console.WriteLine("Current Text: " + editor.GetText().ToString()); // New Text
+
+            // Сохраняем текущее состояние
+            history.SaveState(editor);
+
+            // Еще одно изменение
+            editor.SetText(new StringBuilder("Another Text"));
+            Console.WriteLine("Current Text: " + editor.GetText().ToString()); // Another Text
+
+            // Откатываемся назад
+            history.Undo(editor);
+            Console.WriteLine("Restored Text: " + editor.GetText().ToString()); // New Text
         }
     }
 
@@ -70,4 +87,23 @@ namespace TextEditorUndo
         }
     }
 
+    // Класс Caretaker
+    class History
+    {
+        private Stack<EditorMemento> history = new Stack<EditorMemento>();
+
+        public void SaveState(Editor editor)
+        {
+            history.Push(editor.CreateMemento());
+        }
+
+        public void Undo(Editor editor)
+        {
+            if (history.Count > 0)
+            {
+                EditorMemento memento = history.Pop();
+                editor.RestoreFromMemento(memento);
+            }
+        }
+    }
 }
