@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AppSettingsSaveAndRestore": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
