@@ -5,6 +5,32 @@
         static void Main(string[] args)
         {
             List<string> initialItems = new List<string> { "Book", "Pen"};
+            Order order = new Order("Alice", initialItems);
+            CheckoutSystem checkoutSystem = new CheckoutSystem();
+
+            // Добавляем новый товар
+            order.AddItem("Notebook");
+
+            // Сохраняем текущий заказ
+            checkoutSystem.SaveOrderSnapshot(order);
+
+            // Удаляем товар
+            order.RemoveItem("Pen");
+
+            Console.WriteLine("Current Items:");
+            foreach (string item in order.GetItems())
+            {
+                Console.WriteLine(item); // Book, Notebook
+            }
+
+            // Восстанавливаем предыдущий заказ
+            checkoutSystem.RestoreOrderSnapshot(order);
+
+            Console.WriteLine("\nRestored Items:");
+            foreach (string item in order.GetItems())
+            {
+                Console.WriteLine(item); // Book, Pen
+            }
         }
     }
 
