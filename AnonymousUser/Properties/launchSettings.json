@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AnonymousUser": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
