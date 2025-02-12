@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AgePolicy": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
