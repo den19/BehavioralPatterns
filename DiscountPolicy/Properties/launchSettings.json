@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DiscountPolicy": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
