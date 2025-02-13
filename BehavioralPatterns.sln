@@ -142,6 +142,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgePolicy", "AgePolicy\AgeP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountPolicy", "DiscountPolicy\DiscountPolicy.csproj", "{8DCFC3DC-8443-4C39-B37E-F5B5072C7A9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationPolicy", "AuthorizationPolicy\AuthorizationPolicy.csproj", "{8721C569-7C6E-459A-A598-5584C1A6FC01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -320,6 +322,10 @@ Global
 		{8DCFC3DC-8443-4C39-B37E-F5B5072C7A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DCFC3DC-8443-4C39-B37E-F5B5072C7A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DCFC3DC-8443-4C39-B37E-F5B5072C7A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8721C569-7C6E-459A-A598-5584C1A6FC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8721C569-7C6E-459A-A598-5584C1A6FC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8721C569-7C6E-459A-A598-5584C1A6FC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8721C569-7C6E-459A-A598-5584C1A6FC01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -374,5 +380,6 @@ Global
 		{7357F25E-5942-44A7-9EA9-412090CD07F6} = {0976C8D1-AFD2-43E4-AF97-031974B93339}
 		{BF2CAEDE-6930-42C2-9CCA-8A7F3C138CAC} = {4B192234-DD29-4F69-AF22-0288298A89F0}
 		{8DCFC3DC-8443-4C39-B37E-F5B5072C7A9C} = {4B192234-DD29-4F69-AF22-0288298A89F0}
+		{8721C569-7C6E-459A-A598-5584C1A6FC01} = {4B192234-DD29-4F69-AF22-0288298A89F0}
 	EndGlobalSection
 EndGlobal

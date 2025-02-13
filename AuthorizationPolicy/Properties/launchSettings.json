@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AuthorizationPolicy": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
