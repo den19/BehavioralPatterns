@@ -144,6 +144,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountPolicy", "DiscountP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationPolicy", "AuthorizationPolicy\AuthorizationPolicy.csproj", "{8721C569-7C6E-459A-A598-5584C1A6FC01}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventListener", "EventListener", "{F0E64197-44CB-413C-9187-69CE4A843754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationState", "ApplicationState\ApplicationState.csproj", "{8C53018F-A613-4A19-B86F-B1352A1B1880}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -326,6 +330,10 @@ Global
 		{8721C569-7C6E-459A-A598-5584C1A6FC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8721C569-7C6E-459A-A598-5584C1A6FC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8721C569-7C6E-459A-A598-5584C1A6FC01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C53018F-A613-4A19-B86F-B1352A1B1880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C53018F-A613-4A19-B86F-B1352A1B1880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C53018F-A613-4A19-B86F-B1352A1B1880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C53018F-A613-4A19-B86F-B1352A1B1880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -381,5 +389,6 @@ Global
 		{BF2CAEDE-6930-42C2-9CCA-8A7F3C138CAC} = {4B192234-DD29-4F69-AF22-0288298A89F0}
 		{8DCFC3DC-8443-4C39-B37E-F5B5072C7A9C} = {4B192234-DD29-4F69-AF22-0288298A89F0}
 		{8721C569-7C6E-459A-A598-5584C1A6FC01} = {4B192234-DD29-4F69-AF22-0288298A89F0}
+		{8C53018F-A613-4A19-B86F-B1352A1B1880} = {F0E64197-44CB-413C-9187-69CE4A843754}
 	EndGlobalSection
 EndGlobal
